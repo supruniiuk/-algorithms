@@ -29,7 +29,7 @@ var checked = function(haystack, needle, table, j){
     else{
         return table.indexOf(haystack[j]);
     }
-}
+};
 
 var strStr = function(haystack, needle) {
     let t = table(needle);
@@ -75,4 +75,4 @@ var str = function(t, haystack, needle) {
             }
         } 
     }
-}
+};
