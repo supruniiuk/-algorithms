@@ -1,0 +1,5 @@
+Input: haystack = "jiuliajulia", needle = "julia"
+Output: 6
+
+Input: haystack = "hello", needle = "ll"
+Output: 2
