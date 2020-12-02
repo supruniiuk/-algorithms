@@ -1,3 +1,10 @@
+/**
+ * search for a substring in a string
+ *
+ * @param t table for needle(letters inside)
+ * @param {number} ind, index for searching a substring
+ * @return {number} k, index of the first occurrence of needle in haystack
+ */
 var table = function(needle){
     len = needle.length;
     let arr = new Array(len+1);
